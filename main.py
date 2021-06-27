@@ -1,0 +1,8 @@
+print('Python-based command line')
+name = input('Please enter your username.\n')
+service = input('What service would you like to use, %s\n' % name)
+print('Hmm, that service is not avalible right now.')
+service = input('What service would you like to use, %s\n' % name)
+print('Hmm, that service is not avalible right now.')
+print('928: Error info below.')
+print('Your DoggeCMD session ID has expired for user %s\n' %name)
